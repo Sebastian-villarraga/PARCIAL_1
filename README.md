@@ -19,7 +19,7 @@ creo la clase Producto, Log, y Advertencia:
 ![image](https://github.com/user-attachments/assets/1ef5a650-4bbe-4999-93d0-c4b6d44e6852)
 
 
-
+#
 
 ### Single Responsibility Principle
 establece que una clase debe tener una única razón para cambiar, es decir, debe tener una única responsabilidad.
@@ -32,7 +32,7 @@ El código usa como clases como Log y Advertencia, lo que nos permite, por ejemp
 ### Dependency Inversion Principle 
 En nuestro proyecto la clase Producto depende de clases como Log y Advertencia. Para cumplir con el DIP.
 
-
+#
 
 4. Implenento la clase Producto.
    ![image](https://github.com/user-attachments/assets/6e85193d-5fc6-41cb-8188-768e025da83e)
