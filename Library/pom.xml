@@ -28,14 +28,7 @@
     <sonar.coverage.exclusions>src//configurators/*</sonar.coverage.exclusions>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.11.4</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+
 
 
   <repositories>
@@ -45,13 +38,7 @@
     </repository>
   </repositories>
 
-  <servers>
-    <server>
-      <id>sonar</id>
-      <username>LAB-03</username>
-      <password></password>
-    </server>
-  </servers>
+
 
   <build>
     <plugins>
