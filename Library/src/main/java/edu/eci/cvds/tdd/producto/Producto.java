@@ -9,7 +9,7 @@ public class Producto {
 
         private String nombre;
         private Integer precio;
-        private Integer cantidadStock;
+        private static Integer cantidadStock;
         private String categoria;
         private List<Object> agentes;
 
@@ -35,9 +35,9 @@ public class Producto {
                 // Notificar a los agentes sobre el cambio de stock
                 for (Object agente : agentes) {
                         if (agente instanceof Log) {
-                                ((Log) agente).notificar(this);
+                                ((Log) agente).notificar(cantidadStock, "producto");
                         } else if (agente instanceof Advertencia) {
-                                ((Advertencia) agente).notificar(this);
+                                ((Advertencia) agente).notificar(cantidadStock, this);
                         }
                 }
         }
@@ -46,7 +46,12 @@ public class Producto {
                 return nombre;
         }
 
-        public String getCantidadStock() {
+        public static Integer getCantidadStock() {
                 return cantidadStock;
         }
+
+        public List<Object> getAgentes() {
+                return agentes;
+        }
+
 }
