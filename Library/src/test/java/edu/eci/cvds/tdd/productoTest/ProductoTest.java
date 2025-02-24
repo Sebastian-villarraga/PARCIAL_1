@@ -51,6 +51,6 @@ public class ProductoTest {
     public void testModificarStockYNotificarAdvertencia() {
         // Modificar el stock y verificar que se llama al método de Advertencia
         producto.modificarStock(-7); // Stock baja a 3 unidades
-        assertEquals("ALERTA!!! El stock del Producto: Producto Prueba es muy bajo, solo quedan 3 unidades.", advertencia.notificar(3, "Nintendo swhitch"));
+        assertEquals("ALERTA!!! El stock del Producto: Producto Prueba es muy bajo, solo quedan 3 unidades.", advertencia.notificar(3, producto));
     }
 }
