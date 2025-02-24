@@ -1,4 +1,4 @@
-package edu.eci.cvds.tdd.agent;
+package edu.eci.cvds.tdd.agente;
 
 import edu.eci.cvds.tdd.producto.Producto;
 

@@ -2,8 +2,8 @@ package edu.eci.cvds.tdd.productoTest;
 
 
 import edu.eci.cvds.tdd.producto.Producto;
-import edu.eci.cvds.tdd.agent.Log;
-import edu.eci.cvds.tdd.agent.Advertencia;
+import edu.eci.cvds.tdd.agente.Log;
+import edu.eci.cvds.tdd.agente.Advertencia;
 import org.junit.Before;
 import org.junit.Test;
 

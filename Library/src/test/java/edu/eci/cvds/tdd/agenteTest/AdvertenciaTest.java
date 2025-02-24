@@ -1,9 +1,9 @@
-package edu.eci.cvds.tdd.agentTest;
+package edu.eci.cvds.tdd.agenteTest;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
-import edu.eci.cvds.tdd.agent.Advertencia;
+import edu.eci.cvds.tdd.agente.Advertencia;
 import edu.eci.cvds.tdd.producto.Producto;
 
 public class AdvertenciaTest {

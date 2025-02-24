@@ -1,11 +1,11 @@
-package edu.eci.cvds.tdd.agentTest;
+package edu.eci.cvds.tdd.agenteTest;
 
 import static org.junit.Assert.assertEquals;
 
 import edu.eci.cvds.tdd.producto.Producto;
 import org.junit.Before;
 import org.junit.Test;
-import edu.eci.cvds.tdd.agent.Log;
+import edu.eci.cvds.tdd.agente.Log;
 
 public class LogTest {
 

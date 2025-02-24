@@ -1,7 +1,7 @@
 package edu.eci.cvds.tdd.producto;
 
-import edu.eci.cvds.tdd.agent.Log;
-import edu.eci.cvds.tdd.agent.Advertencia;
+import edu.eci.cvds.tdd.agente.Log;
+import edu.eci.cvds.tdd.agente.Advertencia;
 import java.util.ArrayList;
 import java.util.List;
 
