@@ -40,6 +40,7 @@
   <build>
     <plugins>
       <plugin>
+        <artifactId/>
         <executions>
           <execution>
             <goals>
