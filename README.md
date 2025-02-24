@@ -1,4 +1,7 @@
 # PARCIAL_1
+### Sebastian Julian Villarraga Guerrero
+### CVDS
+### 2/24/2025
 
 1. Creo el repositorio en git hub y el proyecto maven:
 ![image](https://github.com/user-attachments/assets/d660c3dd-4d63-456d-b001-3656c0d952be)
@@ -18,9 +21,19 @@ creo la clase Producto, Log, y Advertencia:
 4. Implenento la clase Producto.
    ![image](https://github.com/user-attachments/assets/6e85193d-5fc6-41cb-8188-768e025da83e)
 
-6. Implemento la clase Log.
+5. Implemento la clase Log.
    ![image](https://github.com/user-attachments/assets/f9733bde-e0da-42c3-a18b-e826401be3e2)
 
-7. Implemento la clase Advertencia.
+6. Implemento la clase Advertencia.
    ![image](https://github.com/user-attachments/assets/801af24c-c861-41ed-ab41-2a2d8b5ff18f)
+
+7. Implemento la clase ProductoTest.
+   ![image](https://github.com/user-attachments/assets/68b52363-7291-45f8-b10d-7c88a5a2c55c)
+
+9. Implemento la clase LogTest.
+   ![image](https://github.com/user-attachments/assets/36d813ee-0cc2-496c-bbb5-cc9e879014d2)
+
+11. Implemento la clase AdvertenciaTest.
+    ![image](https://github.com/user-attachments/assets/842cfbfc-f21c-4f1a-bfe1-b4644b655d27)
+
 
