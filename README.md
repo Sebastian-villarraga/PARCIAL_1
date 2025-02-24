@@ -1,16 +1,26 @@
 # PARCIAL_1
 
-1. creo el repositorio en git hub y el proyecto maven:
+1. Creo el repositorio en git hub y el proyecto maven:
 ![image](https://github.com/user-attachments/assets/d660c3dd-4d63-456d-b001-3656c0d952be)
 
-2. modificar el pom para el proyecto
+2. Modifico el pom para el proyecto
 ![image](https://github.com/user-attachments/assets/3b031735-bc50-4c52-b762-ea3773be6cd1)
 
-3. cramos el arbol del proyecto con las clases y tests
+3. Creo el arbol del proyecto con las clases y tests
 
-crearemos la clase Producto, Log, y Advertencia: 
+creo la clase Producto, Log, y Advertencia: 
 - Producto: se encargara de la logica detras de un producto, estos deben tener nombre, precio, cantidad en stock y categoría.
 - log: Este es un tipo de agente que debe escribir en stdout cada vez que se modifica el stock de un producto.
 - Advertencia: Este es el otro tipo de agente que debe escribir en stdout cada vez que el stock de un producto es menor a 5. 
 ![image](https://github.com/user-attachments/assets/657ea5a7-fb15-4e6d-ab1d-dabe60ed947f)
+![image](https://github.com/user-attachments/assets/1ef5a650-4bbe-4999-93d0-c4b6d44e6852)
+
+4. Implenento la clase Producto.
+   ![image](https://github.com/user-attachments/assets/6e85193d-5fc6-41cb-8188-768e025da83e)
+
+6. Implemento la clase Log.
+   ![image](https://github.com/user-attachments/assets/f9733bde-e0da-42c3-a18b-e826401be3e2)
+
+7. Implemento la clase Advertencia.
+   ![image](https://github.com/user-attachments/assets/801af24c-c861-41ed-ab41-2a2d8b5ff18f)
 
