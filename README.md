@@ -52,4 +52,4 @@ En nuestro proyecto la clase Producto depende de clases como Log y Advertencia. 
 11. Implemento la clase AdvertenciaTest.
     ![image](https://github.com/user-attachments/assets/842cfbfc-f21c-4f1a-bfe1-b4644b655d27)
 
-
+# no me compilo el proyecto maven, no pude realizar el reporte JACOCO aunque las pruebas si estan.
