@@ -22,11 +22,9 @@ public class ProductoTest {
         // Crear un producto con nombre, precio, cantidad de stock y categoría
         producto = new Producto("xbox series x", 100, 10, "Categoría Prueba");
 
-        // Crear instancias de los agentes
         log = new Log();
         advertencia = new Advertencia();
 
-        // Añadir los agentes al producto
         producto.añadirAgenteLog("Log");
         producto.añadirAgenteAdvertencia("Advertencia");
     }
@@ -44,7 +42,7 @@ public class ProductoTest {
     public void testModificarStockYNotificarLog() {
         // Modificar el stock y verificar que se llama al método de Log
         producto.modificarStock(-6); // Stock baja a 4 unidades
-        assertEquals("Producto: Producto Prueba -> 4 unidades disponibles", log.notificar(4, "xbox"));
+        assertEquals("Producto: xbox -> 4 unidades disponibles", log.notificar(4, producto));
     }
 
     @Test

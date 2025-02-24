@@ -35,7 +35,7 @@ public class Producto {
                 // Notificar a los agentes sobre el cambio de stock
                 for (Object agente : agentes) {
                         if (agente instanceof Log) {
-                                ((Log) agente).notificar(cantidadStock, "producto");
+                                ((Log) agente).notificar(cantidadStock, this);
                         } else if (agente instanceof Advertencia) {
                                 ((Advertencia) agente).notificar(cantidadStock, this);
                         }

@@ -2,12 +2,11 @@ package edu.eci.cvds.tdd.agent;
 
 import edu.eci.cvds.tdd.producto.Producto;
 
-public class Log() {
-    public String notificar(Integer amount, String producto){
-        if(amount < 5)
-            return "Producto: {producto.nombre} -> {producto.cantidad_stock} unidades disponibles"
-
+public class Log {
+    public String notificar(Integer amount, Producto producto) {
+        if (amount < 5) {
+            return "Producto: " + producto.getNombre() + " -> " + producto.getCantidadStock() + " unidades disponibles";
+        }
+        return "Stock suficiente";
     }
-
-
 }
